@@ -1,0 +1,53 @@
+﻿l_polish:
+
+# at_buy_artifact_interaction
+at_buy_artifact_interaction: "Kup Artefakt"
+at_buy_artifact_interaction_desc: "Kup [artefakt|E] za [złoto|E]"
+at_buy_artifact_interaction_extra_icon: "$hook_extra_icon$"
+
+# at_sell_artifact_interaction
+at_sell_artifact_interaction: "Sprzedaj Artefakt"
+at_sell_artifact_interaction_desc: "Sprzedaj [artefakt|E] za [złoto|E]"
+at_sell_artifact_interaction_extra_icon: "$hook_extra_icon$"
+
+# at_sell_artifacts_interaction
+at_sell_artifacts_interaction: "Sprzedaj Artefakty"
+at_sell_artifacts_interaction_desc: "Sprzedaj wcześniej wybrany [artefakt|E] postaciom chętnym do jego zakupu"
+at_sell_artifacts_interaction_send_name: "Sprzedaj Artefakt"
+recipient_secondary_at_sell_artifacts_interaction: "Kupujący"
+
+at_warning_reduced_range_desc: "\n@warning_icon! #X Ponieważ podróżujesz, twój zasięg handlu jest ograniczony i skupiony na twojej lokalizacji#!"
+
+at_reluctant_to_spend_gold_reason: "[recipient.GetSheHe|U] niechętnie wydaje [złoto|E]: $VALUE|=+0$"
+at_recipient_at_war_reason: "[recipient.GetSheHe|U] jest na wojnie: $VALUE|=+0$"
+at_target_qwa_reason: "Jakość i bogactwo [target.GetName]: $VALUE|=+0$"
+at_target_better_than_owned_artifacts_reason: "[target.GetName] jest lepszy niż posiadane i możliwe do wyposażenia artefakty: $VALUE|=+0$"
+at_target_better_than_other_owned_artifacts_reason: "[target.GetName] jest lepszy niż inne posiadane i możliwe do wyposażenia artefakty: $VALUE|=+0$"
+at_target_below_max_durability_reason: "[target.GetName] ma niższą trwałość niż maksymalna: $VALUE|=+0$"
+at_artifact_house_banner_reason: "To jest [recipient.GetShortUINamePossessiveNoTooltip] [house|E] sztandar: $VALUE|=+0$"
+at_artifact_succession_title_reason: "[recipient.GetShortUIName|U] posiada tytuł sukcesyjny [target.GetName]: $VALUE|=+0$"
+at_artifact_recently_bought_reason: "[recipient.GetShortUIName|U] niedawno kupił [target.GetName] i chce go zatrzymać: $VALUE|=+0$"
+at_not_enough_gold_reason: "[actor.GetShortUIName|U] nie stać na tę cenę: $VALUE|=+0$"
+at_target_expensive_reason: "[target.GetName] jest dość drogi: $VALUE|=+0$"
+at_target_cheap_reason: "[target.GetName] jest dość tani: $VALUE|=+0$"
+at_target_unique_reason: "[target.GetName] jest unikalny: $VALUE|=+0$"
+at_artifact_religion_relic_reason: "[target.GetName] jest relikwią religii [recipient.GetShortUINamePossessiveNoTooltip]: $VALUE|=+0$"
+at_target_unwanted_reason: "[target.GetName] jest niechciany: $VALUE|=+0$"
+at_target_cursed_reason: "[target.GetName] jest przeklęty: $VALUE|=+0$"
+at_target_equipped_reason: "[target.GetName] jest wyposażony przez [recipient.GetShortUIName|U]: $VALUE|=+0$"
+at_target_trash_reason: "[target.GetName] jest raczej bezwartościowy: $VALUE|=+0$"
+at_recipient_poor_reason: "[recipient.GetShortUIName|U] uważa siebie za biednego: $VALUE|=+0$"
+at_recipient_rich_reason: "[recipient.GetShortUIName|U] uważa siebie za bogatego: $VALUE|=+0$"
+at_recipient_merchant_reason: "[recipient.GetShortUIName|U] jest kupcem: $VALUE|=+0$"
+
+at_buyer_not_enough_gold_for_artifact_price_tooltip: "Płaci #high [gold_i][SCOPE.ScriptValue('at_scope_buyer_current_gold_value')|0]#! sprzedającemu [seller.GetShortUINameNoTooltip] #weak (pełna cena [gold_i][SCOPE.ScriptValue('at_scope_artifact_price_value')|0] przekracza krótko terminowy budżet)#!"
+
+at_artifact_price_breakdown_tooltip: "Szczegóły ceny:\n[GuiScope.SetRoot(artifact.MakeScope).AddScope('actor', actor.MakeScope).AddScope('buyer', buyer.MakeScope).AddScope('seller', seller.MakeScope).GetScriptValueDesc('at_artifact_actual_price_value')]"
+
+at_msg_artifact_bought: "Artefakt Kupiony"
+at_msg_artifact_sold: "Artefakt Sprzedany"
+
+at_artifact_cannot_equip_or_benefit_tt: "@warning_icon! #X [buyer.GetTitledFirstName] nie może wyposażyć ani skorzystać z [artifact.GetName]#!"
+at_artifact_cannot_equip_tt: "@warning_icon! #X [buyer.GetTitledFirstName] nie może wyposażyć [artifact.GetName]#!"
+at_artifact_cannot_benefit_tt: "@warning_icon! #X [buyer.GetTitledFirstName] nie może skorzystać z [artifact.GetName]#!"
+at_artifact_unwanted_or_cursed_tt: "@warning_icon! #X Niechciany lub przeklęty artefakt#!"
