@@ -1,0 +1,2 @@
+﻿l_polish:
+ game_concept_board_game_winning_desc:0 "Zwycięstwo w $game_concept_board_game$ można osiągnąć na dwa sposoby:\n$EFFECT_LIST_BULLET$ Osiągając jako pierwszy wymagany wynik.\n$EFFECT_LIST_BULLET$ Będąc graczem broniącym, jeśli po rundzie [EmptyScope.ScriptValue('bg_round_cap_value')|0] nie wyłoniono zwycięzcy."
