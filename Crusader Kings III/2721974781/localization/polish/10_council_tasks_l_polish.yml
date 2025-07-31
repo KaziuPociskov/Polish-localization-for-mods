@@ -98,5 +98,7 @@ FIND_SECRET_SPYMASTER_1_TRAIT_BONUS_VALUE:1 "[GetTrait('lifestyle_spymaster').Ge
 FIND_SECRET_SPYMASTER_2_TRAIT_BONUS_VALUE:1 "[GetTrait('lifestyle_spymaster').GetName(GetNullCharacter)]"
 FIND_SECRET_SPYMASTER_3_TRAIT_BONUS_VALUE:1 "[GetTrait('lifestyle_spymaster').GetName(GetNullCharacter)]"
 
+## GENE
+
 councillorlevelup:0 "Ekspertyza doradcy w roli [councillor.GetCouncilTitle]"
 councillorlevelup_desc:0 "[councillor.GetUINameNoTooltip] zdobył doświadczenie jako [councillor.GetCouncilTitle|l]"
