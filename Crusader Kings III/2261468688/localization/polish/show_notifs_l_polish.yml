@@ -1,4 +1,5 @@
 l_polish:
+
 show_notifications_decision: "Pokaż powiadomienia"
 show_notifications_decision_desc: ""
 show_notifications_decision_confirm: "$POTWIERDŹ$"
