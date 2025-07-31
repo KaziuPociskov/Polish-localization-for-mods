@@ -14,18 +14,21 @@ bop_total: "Łącznie:"
 bop_pinned_name: "Przypięci władcy"
 bop_opinion_tt: "@opinion_icon! Opinia o seniorze"
 bop_opinion_breakdown: "Rozłożenie opinii: (E)"
+# [Character.MakeScope.Var('bop_undecided_vassals').GetValue|0v]
 
+# stats
 bop_high_opinion_icon: "Wysoka opinia (80+)"
 bop_allied_icon: "Sprzymierzony"
 bop_intimidated_icon: "Zastraszony"
 bop_terrified_icon: "Przerażony"
 bop_dislike: "Wrogi"
 bop_like: "Przyjazny"
-
+# check on a character with dread that this doesn't stretch the line too much
+# if it does, use @friend_icon! and @rival_icon! instead of Angry and Happy
 bop_use_max_strength: "Użyj maksymalnej siły"
 
 BOP_TAB: "$JOM_BULLET_WITH_TAB$"
-
+#tooltip
 cant_join_factions_name: "#bold Nie może dołączyć do frakcji, ponieważ:"
 bop_allied_name: "$BOP_TAB$ Sprzymierzony z [CharYouFirstName(Character.GetLiege)]"
 bop_truce_name: "$BOP_TAB$ Ma rozejm z [CharYouFirstName(Character.GetLiege)]"
@@ -46,7 +49,9 @@ bop_intimidated_name: "zastraszony przez [CharYouFirstName(Character.GetLiege)] 
 bop_extra_name: "Dodatkowe"
 bop_strongest: "Najsilniejszy"
 bop_happiest: "Najszczęśliwszy"
-
+# DO NOT TRANSLATE
+# values
+# yes, there seems to be no way to just add a k
 bop_you_number: "[SelectLocalization(GreaterThan_CFixedPoint( Character.MakeScope.ScriptValue('bop_your_max_or_current_strength'), '(CFixedPoint)10000'), Concatenate('bop_you', '_k'), 'bop_you')] [CharYouFirstName( Character )|U]"
 bop_you: "[Character.MakeScope.ScriptValue('bop_your_max_or_current_strength')|0v]"
 bop_you_k: "[Character.MakeScope.ScriptValue('bop_your_max_or_current_strength')|0vk]"
